@@ -1,3 +1,31 @@
+/* Changes to Bootstrap */
+
 /* Your styles go here */
 @import "bootstrap/scss/bootstrap.scss";
 @import "bootstrap-icons/font/bootstrap-icons.css";
+
+/* importing other stylesheets */
+
+@import "home.scss";
+@import "nav.scss";
+@import "jumbo.scss";
+@import "footer.scss";
+@import "contact.scss";
+
+
+/* site wide styles */
+
+body{
+    background-color: #1E1E1E;
+}
+
+/*Font Families*/
+
+@font-face {
+    font-family: font-1;
+    src: url(../typefaces/SecularOne-Regular.ttf);
+}
+
+.header-font{
+    font-family: font-1;
+}
