@@ -1,8 +1,9 @@
 .contact-form{
     background-color: #1E1E1E;
     border-radius: 40px;
-    width: 27%;
+    width: 30%;
 }
+
 
 .jumbo-white{
     background-color: white;
@@ -36,3 +37,25 @@
 .inx-icon{
     width: 20%;
 }
+
+@media screen and (max-width: 991px) {
+    .contact-form{
+        width: 80%;
+    }
+
+    .input-contact, .contact-button{
+        width: 80%
+    }
+  }
+
+//   @media screen and (max-width: 991px) {
+
+
+//     .input-contact, .contact-button{
+//         width: 80%
+//     }
+//   }
+
+
+
+

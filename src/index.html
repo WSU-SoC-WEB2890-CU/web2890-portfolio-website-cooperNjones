@@ -51,15 +51,15 @@
   <!-- Jumbo Section -->
  
   <div class="container">
-    <div class="row">
-      <div class="col">
-        <h1 class="text-light mt-5 text-center">Cooper Jones</h1>
+    <div class="row d-flex align-items-center">
+      <div class="col-sm-12 col-lg-6">
+        <h1 class="text-light mt-5 text-center col-sm-12 col-lg-6 mx-auto">Cooper Jones</h1>
         <div class="text-center">
-        <a href="contact.html"><button class="btn bg-light mt-5 cta">Contact</button></a>
+        <a href="contact.html"><button class="btn bg-light mt-5 cta mb-4">Contact</button></a>
       </div>
       </div>
-      <div class="col">
-        <img src="./images/cooper-jumbo-cropped.png" alt="image of Cooper" class="text-light">
+      <div class="col-sm-12 col-lg-6 d-flex justify-content-center">
+        <img src="./images/cooper-jumbo-cropped.png" alt="image of Cooper">
       </div>  
     </div>
   </div>
@@ -90,28 +90,43 @@
     <h4 class="text-light text-center">"Simple is OKAY"</h4>
   </div>
 
-  <div class="slogan d-flex gap-5 justify-content-center mt-5">
-    <img src="./images/icons/check.svg" alt="check mark">
-  <h3 class="text-light">Developer</h3>
-  <img src="./images/icons/check.svg" alt="check mark">
-  <h3 class="text-light">Designer</h3>
-  <img src="./images/icons/check.svg" alt="check mark">
-  <h3 class="text-light">Creator</h3>
-</div>
+  <div class="container slogan d-flex gap-5 justify-content-center mt-5">
+    <div class="row">
+      <div class="col-sm-12 col-lg-4 col-md-4 d-flex justify-content-center mt-3">
+        <img src="./images/icons/check.svg" alt="check mark">
+        <h3 class="text-light ms-3">Developer</h3>     
+       </div>
+      <div class="col-sm-12 col-lg-4 col-md-4 d-flex justify-content-center mt-3">
+        <img src="./images/icons/check.svg" alt="check mark">
+        <h3 class="text-light ms-3">Designer</h3>      
+      </div>
+      <div class="col-sm-12 col-lg-4 col-md-4 d-flex justify-content-center mt-3">
+        <img src="./images/icons/check.svg" alt="check mark">
+        <h3 class="text-light ms-3">Creator</h3>      
+      </div>
+    </div>
+  </div>
 
 <h3 class="text-light mt-5 text-center">Get in Touch</h3>
-
-<form action="POST" class="text-center mt-5 mb-5">
-  <img src="./images/icons/person.svg" alt="person icon">
-    <input type="text" placeholder="Name" class="me-5">
-    <img src="./images/icons/mail.svg" alt="mail icon">
-    <input type="email" placeholder="Email" class="me-5">
-    <img src="./images/icons/phone.svg" alt="phone icon">
-    <input type="tel" placeholder="Phone" class="me-5">
-
-    <button class="submit text-light"><img src="./images/icons/arrow.svg" class="arrow" alt="arrow button"></button>
+<hr class="text-light w-75 mx-auto">
+<form action="POST" class="text-center mt-5 mb-5 d-flex">
+<div class="container w-80 align-items-center">
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-3">
+      <img src="./images/icons/person.svg" alt="person icon">
+      <input type="text" placeholder="Name" class="me-5 mt-4">    </div>
+    <div class="col-sm-12 col-md-12 col-lg-3">
+      <img src="./images/icons/mail.svg" alt="mail icon">
+      <input type="email" placeholder="Email" class="me-5 mt-4">    </div>
+    <div class="col-sm-12 col-md-12 col-lg-3">
+      <img src="./images/icons/phone.svg" alt="phone icon">
+      <input type="tel" placeholder="Phone" class="me-5 mt-4">    </div>
+    <div class="col-sm-12 col-md-12 col-lg-3">
+      <button class="mt-3 p-2 contact-button mb-5">Submit</button>   
+    </div>
+  </div>
+</div>
 </form>
-
 <footer>
 
   <p class="mt-5 p-3 rights"> &copy; Cooper Jones 2023 - All Rights Reserved</p>
