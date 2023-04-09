@@ -15,14 +15,11 @@
 @import "about.scss";
 @import "more.scss";
 
-
-
-
-
 /* site wide styles */
 
 body{
     background-color: #1E1E1E;
+    background-image: url(../images/background-slash.png);
 }
 
 /*Font Families*/
@@ -32,6 +29,33 @@ body{
     src: url(../typefaces/SecularOne-Regular.ttf);
 }
 
+@font-face {
+    font-family: font-2;
+    src: url(../typefaces/Rowdies-Bold.ttf);
+}
+
+@font-face {
+    font-family: font-3;
+    src: url(../typefaces/Candal-Regular.ttf);
+}
+
+@font-face {
+    font-family: font-4;
+    src: url(../typefaces/Signika-VariableFont_wght.ttf);
+}
+
 .header-font{
+    font-family: font-2;
+}
+
+.subheader-font{
     font-family: font-1;
+}
+
+.main-font{
+    font-family: font-3;
+}
+
+.text-font{
+    font-family: font-4;
 }
