@@ -22,6 +22,18 @@ body{
     background-image: url(../images/background-slash.png);
 }
 
+a{
+    color: white;
+}
+
+a:hover{
+    color: #1E1E1E;
+}
+
+a:visited{
+    color: white;
+}
+
 /*Font Families*/
 
 @font-face {
