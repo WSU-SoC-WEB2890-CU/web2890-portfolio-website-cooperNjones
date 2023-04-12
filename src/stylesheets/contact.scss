@@ -1,0 +1,61 @@
+.contact-form{
+    background-color: #1E1E1E;
+    border-radius: 40px;
+    width: 30%;
+}
+
+
+.jumbo-white{
+    background-color: white;
+}
+
+.contact-button{
+    border: none;
+    background: radial-gradient(#dd612c, #F36525);
+    border-radius: 20px;
+    padding: 5px;
+    width: 60%;
+    color: white;
+}
+
+.input-contact{
+    width: 60%;
+}
+
+.contact-banner{
+    font-size: 1.3rem;
+}
+
+.info{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.icon{
+    width: 4%;
+}
+
+.inx-icon{
+    width: 20%;
+}
+
+@media screen and (max-width: 991px) {
+    .contact-form{
+        width: 80%;
+    }
+
+    .input-contact, .contact-button{
+        width: 80%
+    }
+  }
+
+//   @media screen and (max-width: 991px) {
+
+
+//     .input-contact, .contact-button{
+//         width: 80%
+//     }
+//   }
+
+
+
+

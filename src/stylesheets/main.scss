@@ -1,3 +1,73 @@
+/* Changes to Bootstrap */
+
 /* Your styles go here */
 @import "bootstrap/scss/bootstrap.scss";
 @import "bootstrap-icons/font/bootstrap-icons.css";
+
+/* importing other stylesheets */
+
+@import "home.scss";
+@import "nav.scss";
+@import "jumbo.scss";
+@import "footer.scss";
+@import "contact.scss";
+@import "my-work.scss";
+@import "about.scss";
+@import "more.scss";
+
+/* site wide styles */
+
+body{
+    background-color: #1E1E1E;
+    background-image: url(../images/background-slash.png);
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: #1E1E1E;
+}
+
+a:visited{
+    color: white;
+}
+
+/*Font Families*/
+
+@font-face {
+    font-family: font-1;
+    src: url(../typefaces/SecularOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: font-2;
+    src: url(../typefaces/Rowdies-Bold.ttf);
+}
+
+@font-face {
+    font-family: font-3;
+    src: url(../typefaces/Candal-Regular.ttf);
+}
+
+@font-face {
+    font-family: font-4;
+    src: url(../typefaces/Signika-VariableFont_wght.ttf);
+}
+
+.header-font{
+    font-family: font-2;
+}
+
+.subheader-font{
+    font-family: font-1;
+}
+
+.main-font{
+    font-family: font-3;
+}
+
+.text-font{
+    font-family: font-4;
+}

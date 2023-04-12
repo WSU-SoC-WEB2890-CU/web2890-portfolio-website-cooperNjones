@@ -1,0 +1,53 @@
+
+
+.cooper-squiggle{
+    width: 60%;
+    height: auto;
+}
+
+.mini-mini-banner{
+    background-color: rgb(243, 101, 37, 0.4);
+    width: 40%;
+}
+
+.about-icons{
+    width: 30%;
+}
+
+.highlighter{
+    color: #F36525;
+}
+
+.about-text{
+    width: 75%;
+}
+
+.timeline-graphic{
+    width: 100%;
+}
+
+.banner-full{
+    background-color: rgb(243, 101, 37, 0.4);
+}
+.experience-description{
+    width: 80%;
+    padding-top: 2%;
+}
+
+.job-header{
+    font-size: 1.4rem;
+}
+
+
+
+
+
+@media screen and (max-width: 991px) {
+    .mini-mini-banner{
+        width: 100%;
+    }
+
+    .timeline-graphic{
+        display: none;
+    }
+  }
