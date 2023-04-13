@@ -2,141 +2,222 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Portfolio website</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="index,follow">
-    <meta name="description" content="TODO: Portfolio website ...">
+  <meta charset="utf-8">
+  <title>Portfolio website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="TODO: Portfolio website ...">
 
-    <link rel="stylesheet" href="./stylesheets/main.scss">
+  <link rel="stylesheet" href="./stylesheets/main.scss">
 </head>
 
 <body>
-    <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid p-3">
-            <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="nav-logo" width="95.727"
-                    height="40.594" viewBox="0 0 95.727 40.594">
-                    <g id="logo-white" transform="translate(11 8)">
-                        <rect id="Rectangle_1" data-name="Rectangle 1" width="84.727" height="16.261"
-                            transform="translate(0 -8)" fill="#fff" />
-                        <rect id="Rectangle_2" data-name="Rectangle 2" width="20.929" height="40.594"
-                            transform="translate(-11 -8)" fill="#fff" />
-                        <rect id="Rectangle_3" data-name="Rectangle 3" width="26.679" height="14.441"
-                            transform="translate(0 18.151)" fill="#fff" />
-                        <rect id="Rectangle_4" data-name="Rectangle 4" width="17.342" height="28.882"
-                            transform="translate(67.385 3.71)" fill="#fff" />
-                        <rect id="Rectangle_5" data-name="Rectangle 5" width="20.967" height="14.441"
-                            transform="translate(52.084 18.151)" fill="#fff" />
-                    </g>
-                </svg>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="work.html">My Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html" tabindex="-1" aria-disabled="true">About Me</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+ <!-- NavBar -->
+ <nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container-fluid pt-3">
+    <a class="navbar-brand p-3" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="nav-logo" width="95.727"
+      height="40.594" viewBox="0 0 95.727 40.594">
+      <g id="logo-white" transform="translate(11 8)">
+        <rect id="Rectangle_1" data-name="Rectangle 1" width="84.727" height="16.261" transform="translate(0 -8)"
+          fill="#fff" />
+        <rect id="Rectangle_2" data-name="Rectangle 2" width="20.929" height="40.594" transform="translate(-11 -8)"
+          fill="#fff" />
+        <rect id="Rectangle_3" data-name="Rectangle 3" width="26.679" height="14.441"
+          transform="translate(0 18.151)" fill="#fff" />
+        <rect id="Rectangle_4" data-name="Rectangle 4" width="17.342" height="28.882"
+          transform="translate(67.385 3.71)" fill="#fff" />
+        <rect id="Rectangle_5" data-name="Rectangle 5" width="20.967" height="14.441"
+          transform="translate(52.084 18.151)" fill="#fff" />
+      </g>
+    </svg>
+  </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="work.html">My Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html" tabindex="-1" aria-disabled="true">About Me</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-    <div class="my-work-banner text-light p-4 text-center">
-        <h1>My Work</h1>
+  <div class="my-work-banner text-light p-4 text-center">
+    <h1>My Work</h1>
+  </div>
+
+  <div class="container pt-5">
+    <div class="row">
+      <div class="col-sm-12 col-lg-4 h-100">
+        <div class="work-card mx-auto">
+          <div>
+            <h4 class="text-light p-3 image-banner text-center">Apollo Marketing</h4>
+          </div>
+          <a href="https://living-apollo.netlify.app" target="_blank"><img src="./images/work-images/apollo.jpg"
+              class="card-img-top work-images" alt="image of Apollo"></a>
+        </div>
+        <div class="bottom-work p-4 mx-auto d-flex flex-column">
+          <div class="text-light flex-grow-1">Apollo Marketing is a marketing agency that compensated a friend and I to
+            make a marketing/sales funnel website that could properly schedule appointments as well as provide
+            information regarding the company. This was a very exciting project to be a part of and required problem
+            solving skills and communication with clientele.</div>
+          <a href="./apollo-more.html"><button class="work-cta mt-3 mb-3 w-100">Learn More</button></a>
+        </div>
+      </div>
+      <div class="col-sm-12 col-lg-4 h-100">
+        <div class="work-card mx-auto">
+          <div>
+            <h4 class="text-center text-light p-3 image-banner">VP Campaign</h4>
+          </div>
+          <a href="https://megan-vp-activities.netlify.app" target="_blank"><img src="./images/work-images/chairs.jpg"
+              class="card-img-top work-images" alt="image of chairs"></a>
+        </div>
+        <div class="bottom-work p-4 mx-auto d-flex flex-column">
+          <div class="flex-grow-1 text-light">The VP Campaign website that I created was done as a side project for a
+            student attending my local college. The student tasked me with making a MOBILE ONLY website that displayed
+            her core values as well as had a QR code that linked students other students to her website so multiple
+            people could view and share at the same time.</div>
+          <a href="./vp-more.html"><button class="work-cta mt-3 mb-3 w-100">Learn More</button></a>
+        </div>
+      </div>
+      <div class="col-sm-12 col-lg-4 h-100">
+        <div class="work-card mx-auto">
+          <div>
+            <h4 class="text-center text-light p-3 image-banner">Photography Site</h4>
+          </div>
+          <a href="https://cooperjonesproductphotography.netlify.app" target="_blank"><img
+              src="./images/work-images/camera.jpg" class="card-img-top work-images" alt="image of camera"></a>
+        </div>
+        <div class="bottom-work p-4 mx-auto d-flex flex-column ">
+          <div class="flex-grow-1 text-light">This was a personal product photography site that I built for a school
+            project. The purpose was to give exposure to an individual for a service that they were providing as well as
+            providing all contact information on the site to make it easy and efficient for the customer to reach out at
+            any time. This site was a great representation of skills. </div>
+          <a href="./photography-more.html"><button class="work-cta mt-3 mb-3 w-100">Learn
+              More</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row pt-5">
+      <div class="col-sm-12 col-lg-4">
+        <div class="work-card mx-auto">
+          <div>
+            <h4 class="text-center text-light p-3 image-banner">Budgeting App</h4>
+          </div>
+          <a href="https://coopers-budget.netlify.app" target="_blank"><img src="./images/work-images/coins.jpg"
+              class="card-img-top work-images" alt="image of coins"></a>
+        </div>
+        <div class="bottom-work p-4 mx-auto d-flex flex-column">
+          <div class="flex-grow-1 text-light">This budgeting app was another school project using Python and Django.
+            This was one of the more challenging applications that I built in my time in college due to the fact that it
+            was almost all back-end programming and very minimal front-end design. Although this was challenging it
+            helped me to better understand the backend.</div>
+          <a href="./budget-more.html"><button class="work-cta mt-3 mb-3 w-100">Learn More</button></a>
+        </div>
+      </div>
+      <div class="col-sm-12 col-lg-4">
+        <div class="work-card mx-auto">
+          <div>
+            <h4 class="text-center text-light p-3 image-banner">Car Sales website</h4>
+          </div>
+          <a href="https://cardeal-2890.netlify.app/" target="_blank"><img src="./images/work-images/car.jpg"
+              class="card-img-top work-images" alt="image of car"></a>
+        </div>
+        <div class="bottom-work p-4 mx-auto d-flex flex-column">
+          <div class="flex-grow-1 text-light">This car sales website was a school project that required me to design and
+            build a car sales website using bootstrap, HTML, and CSS. It also required me to make my own color
+            selections and change existing logos on the site to reflect the new colors that I had chosen. The site
+            turned out very well and it looks really professional.</div>
+          <a href="./car-more.html"><button class="work-cta mt-3 mb-3 w-100">Learn More</button></a>
+        </div>
+      </div>
+      <div class="col-sm-12 col-lg-4">
+        <div class="work-card mx-auto">
+          <div>
+            <h4 class="text-center text-light p-3 image-banner">Sasquatch event form</h4>
+          </div>
+          <a href="https://symphonious-seahorse-69ac43.netlify.app/" target="_blank"><img
+              src="./images/work-images/forest.jpg" class="card-img-top work-images" alt="image of forest"> </a>
+        </div>
+        <div class="bottom-work p-4 mx-auto d-flex flex-column">
+          <div class="flex-grow-1 text-light">Although this portfolio piece is probably my poorest looking, it presents
+            my skills that I learned in Vue.js during a client side frameworks class that I took in college. It presents
+            a form and then stores the information entered into a database to then output back to the user. Although
+            this was also challenging it was good to learn.</div>
+          <a href="./sasquatch-more.html"><button class="work-cta mt-3 mb-3 w-100">Learn
+              More</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="p-3">
+    <div class="container text-light text-center pt-2">
+      <div class="row">
+        <div class="col-sm-12 col-lg-4">
+          <h6 class="subheader-font">Quick Links</h6>
+          <hr class="w-75 mx-auto">
+          <a href="index.html">
+            <p>Home</p>
+          </a>
+          <a href="contact.html">
+            <p>Contact</p>
+          </a>
+          <a href="work.html">
+            <p>My Work</p>
+          </a>
+          <a href="about.html">
+            <p>About Me</p>
+          </a>
+        </div>
+        <div class="col-sm-12 col-lg-4">
+          <h6 class="subheader-font">Contact Links</h6>
+          <hr class="w-75 mx-auto">
+          <a href="https://www.linkedin.com/in/cooper-jones-6570a51a8/">
+            <p>LinkedIn</p>
+          </a>
+          <a href="https://www.instagram.com/jangle_jones/">
+            <p>Instagram</p>
+          </a>
+        </div>
+        <div class="col-sm-12 col-lg-4 d-flex justify-content-center align-items-center pt-3">
+          <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="nav-logo" width="95.727"
+              height="40.594" viewBox="0 0 95.727 40.594">
+              <g id="logo-white" transform="translate(11 8)">
+                <rect id="Rectangle_1" data-name="Rectangle 1" width="84.727" height="16.261"
+                  transform="translate(0 -8)" fill="#fff" />
+                <rect id="Rectangle_2" data-name="Rectangle 2" width="20.929" height="40.594"
+                  transform="translate(-11 -8)" fill="#fff" />
+                <rect id="Rectangle_3" data-name="Rectangle 3" width="26.679" height="14.441"
+                  transform="translate(0 18.151)" fill="#fff" />
+                <rect id="Rectangle_4" data-name="Rectangle 4" width="17.342" height="28.882"
+                  transform="translate(67.385 3.71)" fill="#fff" />
+                <rect id="Rectangle_5" data-name="Rectangle 5" width="20.967" height="14.441"
+                  transform="translate(52.084 18.151)" fill="#fff" />
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
     </div>
 
-    <div class="container pt-5 text-center">
-        <div class="row">
-          <div class="col-sm-12 col-lg-4">
-            <div class="work-card mx-auto">
-                <div>
-                    <h4 class="text-center text-light p-3 image-banner">Apollo Marketing</h4>
-                  </div>
-                <a href="https://living-apollo.netlify.app" target="_blank"><img src="./images/work-images/apollo.jpg" class="card-img-top work-images" alt="image of Apollo"></a>
-              </div>
-              <div class="bottom-work p-4 mx-auto">
-                <a href="./apollo-more.html" target="blank"><button class="work-cta mt-3 mb-3 w-100">Learn More</button></a>              
-            </div>
-          </div>
-          <div class="col-sm-12 col-lg-4">
-            <div class="work-card mx-auto">
-                <div>
-                    <h4 class="text-center text-light p-3 image-banner">VP Campaign</h4>
-                  </div>
-                <a href="https://megan-vp-activities.netlify.app" target="_blank"><img src="./images/work-images/chairs.png" class="card-img-top work-images" alt="image of chairs"></a>
-              </div>
-              <div class="bottom-work p-4 mx-auto">
-                <a href="./vp-more.html" target="blank"><button class="work-cta mt-3 mb-3 w-100">Learn More</button></a>              
-            </div>
-          </div>
-          <div class="col-sm-12 col-lg-4">
-            <div class="work-card mx-auto">
-                <div>
-                    <h4 class="text-center text-light p-3 image-banner">Photography Site</h4>
-                  </div>
-                <a href="https://cooperjonesproductphotography.netlify.app" target="_blank"><img src="./images/work-images/camera.png" class="card-img-top work-images" alt="image of camera"></a>
-              </div>
-              <div class="bottom-work p-4 mx-auto">
-                <a href="./photography-more.html" target="blank"><button class="work-cta mt-3 mb-3 w-100">Learn More</button></a>              
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row pt-5">
-            <div class="col-sm-12 col-lg-4">
-                <div class="work-card mx-auto">
-                    <div>
-                        <h4 class="text-center text-light p-3 image-banner">Budgeting App</h4>
-                      </div>
-                      <a href="https://coopers-budget.netlify.app" target="_blank"><img src="./images/work-images/coins.png" class="card-img-top work-images" alt="image of coins"></a>
-                  </div>
-                  <div class="bottom-work p-4 mx-auto">
-                    <a href="./budget-more.html" target="blank"><button class="work-cta mt-3 mb-3 w-100">Learn More</button></a>                  
-                </div>
-              </div>
-              <div class="col-sm-12 col-lg-4">
-                <div class="work-card mx-auto">
-                    <div>
-                        <h4 class="text-center text-light p-3 image-banner">Car Sales website</h4>
-                      </div>
-                      <a href="https://cardeal-2890.netlify.app/" target="_blank"><img src="./images/work-images/car.png" class="card-img-top work-images" alt="image of car"></a>
-                  </div>
-                  <div class="bottom-work p-4 mx-auto">
-                    <a href="./car-more.html" target="blank"><button class="work-cta mt-3 mb-3 w-100">Learn More</button></a>                  
-                </div>
-              </div>
-              <div class="col-sm-12 col-lg-4">
-                <div class="work-card mx-auto">
-                    <div>
-                        <h4 class="text-center text-light p-3 image-banner">Sasquatch event form</h4>
-                      </div>
-                    <a href="https://symphonious-seahorse-69ac43.netlify.app/" target="_blank"><img src="./images/work-images/forest.png" class="card-img-top work-images" alt="image of forest"> </a>
-                  </div>
-                  <div class="bottom-work p-4 mx-auto">
-                    <a href="./sasquatch-more.html" target="blank"><button class="work-cta mt-3 mb-3 w-100">Learn More</button></a>
-                  </div>
-              </div>
-        </div>
-      </div>
+    <p class="rights text-center"> &copy; Cooper Jones 2023 - All Rights Reserved</p>
+  </footer>
 
-    <footer>
-        <p class="mt-5 p-3 rights"> &copy; Cooper Jones 2023 - All Rights Reserved</p>
-    </footer>
-    <script type="module" src="./javascripts/main.js"></script>
+  <script type="module" src="./javascripts/main.js"></script>
 </body>
 
 </html>
